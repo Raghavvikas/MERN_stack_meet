@@ -1,0 +1,155 @@
+.main {
+  min-height: 100vh;
+}
+.elem {
+  &-why-rely {
+    background-image: url("../../../public/shape-6.svg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    img {
+      background-color: var(--white);
+      padding: 16px;
+      border-radius: 24px 24px 24px 24px;
+      margin-right: 20px;
+      width: 60px;
+    }
+    &-ans {
+      padding-right: 40px;
+      h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 500;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+  &-pets-best-in {
+    background: url("../../../public/shape-5.svg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    &-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      text-align: center;
+
+      li {
+        list-style: none;
+      }
+
+      &-name {
+        padding-top: 40px;
+        p {
+          font-size: 20px;
+          font-weight: 500;
+          color: var(--black);
+          margin-top: 14px;
+        }
+        .service-name {
+          background-color: var(--second-theme);
+          padding: 20px;
+          border-radius: 15px;
+          svg {
+            width: 70px;
+            height: 70px;
+          }
+          &:hover {
+            background-color: var(--theme);
+
+            svg {
+              transform: scale(1.1);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-head {
+    text-align: center;
+
+    h3 {
+      font-size: 56px;
+      font-weight: 700;
+      font-family: var(--global-font-family-2);
+    }
+  }
+
+  &-priority {
+    background-color: var(--second-theme);
+    margin-top: -105px;
+    display: flex;
+    align-items: end;
+    position: relative;
+    z-index: -1;
+    &-populated {
+      background-image: url(https://petmania.vamtam.com/wp-content/uploads/2022/06/iStock-157527277.png);
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      background-size: contain;
+      align-content: flex-end;
+      align-items: flex-end;
+      transition: background 0.3s, border 0.3s, border-radius 0.3s,
+        box-shadow 0.3s;
+      // margin: 60px 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      min-height: 75vh;
+      margin: 70px 0 0;
+    }
+  }
+
+  &-image-left {
+    margin: 0 0 -10px -30px;
+  }
+
+  &-image-center {
+    margin: 0 0 -36px -110px;
+
+    img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 0 0 0 0;
+      height: auto;
+    }
+  }
+
+  &-image-right {
+    margin: 0 0 -110px -70px;
+  }
+
+  &-heading-title {
+    h1 {
+      font-size: 80px;
+      font-family: var(--global-font-family-2);
+    }
+  }
+
+  &-pets-human {
+    padding-top: 135px;
+
+    &-img {
+      width: 100%;
+      max-width: 560px;
+      border-radius: 0 0 0 0;
+    }
+
+    &-head {
+      h3 {
+        font-size: 80px;
+        font-family: var(--global-font-family-2);
+        margin-bottom: 20px;
+      }
+
+      p {
+        padding: 0% 12%;
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

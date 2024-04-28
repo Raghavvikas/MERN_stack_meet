@@ -1,0 +1,29 @@
+.header {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px 30px;
+  z-index: 1000;
+  // position: absolute;
+  width: 100%;
+  &-number {
+    margin: 0 20px 0 0;
+    a {
+      color: var(--black);
+      font-size: 15px;
+      font-weight: calc(var(--global-font-weight) - 100);
+      line-height: var(--global-line-height);
+    }
+  }
+  .menu-item {
+    a {
+      padding: 10px 16px;
+      color: var(--black);
+      &.active {
+        background-color: var(--white);
+      }
+    }
+    ul {
+      display: none;
+    }
+  }
+}

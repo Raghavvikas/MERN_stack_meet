@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
+@import './utils/mixin.scss';
+@import './base/layout/base.scss';
+@import './base/layout/align.scss';
+@import './base/grid/grid.scss';
+@import './base/grid/lg-grid.scss';
+@import './base/grid/md-grid.scss';
+@import './base/grid/sm-grid.scss';
+
+@import './component/header.scss';
+@import './component/footer.scss';
+@import './component/form.scss';
+
+@import './page/home.scss';

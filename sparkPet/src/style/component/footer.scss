@@ -1,0 +1,101 @@
+.elem-footer {
+    background-color: var(--second-theme);
+    padding-top: 30px;
+    margin-top: 30px;
+    &-widget{
+        background-image: url(https://petmania.vamtam.com/wp-content/uploads/2022/06/iStock-462392661.png);
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-size: 200px auto;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+    &-border{
+        width: 100%;
+        height: 1px;
+        background-color: var(--black);
+        margin-bottom: -13px;
+    }
+    &-icon{
+        position: relative;
+        display: block;
+        width: 100%;
+        text-align: center;
+        i{
+            color: var(--white);
+            font-size: 15px;
+            background-color: var(--black);
+            padding: 4px;
+            border-radius: 4px;
+        }
+    }
+    &-info {
+        .elem-footer-menu {
+            justify-content: center;
+
+            li {
+                a {
+                    font-size: 12px;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+
+    &-links {
+        padding: 20px 0px;
+
+        a {
+            color: var(--black);
+            padding: 0px 20px;
+        }
+    }
+
+    &-title {
+        h2 {
+            font-size: 42px;
+            font-weight: bold;
+            font-family: var(--global-font-family-2);
+        }
+    }
+
+    &-menu {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        justify-content: end;
+
+        li {
+            list-style: none;
+            padding: 0px 10px;
+
+            a {
+                font-size: 14px;
+                font-weight: 600;
+                color: var(--black);
+            }
+        }
+    }
+
+    &-social {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        justify-content: end;
+
+        li {
+            list-style: none;
+            margin-right: 10px;
+
+            a {
+                color: var(--black);
+
+                .fab {
+                    font-size: 1.5rem;
+
+                }
+            }
+        }
+    }
+}
